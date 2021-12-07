@@ -4357,6 +4357,14 @@ a:hover {
   margin-bottom: 2em;
 }
 
+.mentorrowthree {
+  margin-bottom: 2em;
+}
+
+.rowthree {
+  display: none;
+}
+
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 2.5rem;
@@ -15093,6 +15101,10 @@ a:hover {
     background-image: url('../images/HEADER_SKELETON.svg');
     background-position: 0px 0px;
     background-size: cover;
+  }
+
+  .column-3 {
+    display: none;
   }
 }
 
