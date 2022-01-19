@@ -3687,11 +3687,12 @@ a:hover {
   padding-bottom: 4em;
 }
 
-.div-block-4 {
+.sidenaame {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  width: 450px;
   height: 550px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -3706,8 +3707,7 @@ a:hover {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
+  border: 0px solid #000;
 }
 
 .notanotherhacksection {
@@ -3728,7 +3728,8 @@ a:hover {
   display: -ms-flexbox;
   display: flex;
   overflow: visible;
-  height: 550px;
+  width: 100%;
+  height: 100%;
   margin-left: 4em;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -3737,8 +3738,7 @@ a:hover {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
+  border: 0px solid #000;
   color: #053a2b;
 }
 
@@ -3756,6 +3756,7 @@ a:hover {
   padding-top: 1em;
   padding-bottom: 1em;
   font-family: 'Roboto Mono', sans-serif;
+  text-transform: none;
 }
 
 .registersectio {
@@ -4076,11 +4077,13 @@ a:hover {
   background-color: #fff;
 }
 
-.div-block-4-copy {
+.sidename {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  width: 450px;
+  height: 100%;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -4098,6 +4101,7 @@ a:hover {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   height: 100%;
   margin-left: 4em;
   padding-top: 1em;
@@ -4140,6 +4144,7 @@ a:hover {
 }
 
 .image-3 {
+  width: 100%;
   padding-top: 4em;
 }
 
@@ -4363,6 +4368,47 @@ a:hover {
 
 .rowthree {
   display: none;
+}
+
+.section-3 {
+  height: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #e9eefe;
+}
+
+.faqinfo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.heading-6 {
+  padding-top: 1em;
+  font-family: 'Cindie2 r', sans-serif;
+  color: #053a2b;
+}
+
+.text-span-2 {
+  text-transform: uppercase;
+}
+
+.text-span-3 {
+  text-transform: uppercase;
+}
+
+.text-span-4 {
+  text-transform: uppercase;
+}
+
+.text-span-5 {
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 991px) {
@@ -14801,7 +14847,22 @@ a:hover {
     align-items: center;
   }
 
+  .sidenaame {
+    width: 100%;
+    height: 100%;
+  }
+
+  .div-block-5 {
+    height: 100%;
+    margin-right: 0em;
+    margin-left: 0em;
+    padding-top: 0em;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+
   .paragraph {
+    padding-top: 0em;
     color: #053a2b;
     text-align: center;
   }
@@ -14865,6 +14926,7 @@ a:hover {
 
   .organizers {
     display: block;
+    padding-bottom: 2em;
   }
 
   .oragnizersblockrow {
@@ -14950,7 +15012,7 @@ a:hover {
   }
 
   .text-block-3 {
-    display: block;
+    display: none;
   }
 
   .link-blockfaq {
@@ -15105,6 +15167,14 @@ a:hover {
 
   .column-3 {
     display: none;
+  }
+
+  .faqinfo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
