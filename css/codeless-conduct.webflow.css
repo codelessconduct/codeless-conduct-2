@@ -15029,6 +15029,7 @@ a:hover {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    height: 100%;
     padding-right: 1em;
     padding-left: 1em;
     -webkit-box-orient: vertical;
