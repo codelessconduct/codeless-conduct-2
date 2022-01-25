@@ -3883,6 +3883,7 @@ a:hover {
 }
 
 .heading-3 {
+  margin-top: 1em;
   font-family: 'Cindie2 r', sans-serif;
   color: #fff;
   font-size: 2rem;
@@ -3897,6 +3898,7 @@ a:hover {
 }
 
 .sponsortitleone {
+  display: none;
   padding-top: 0.5em;
   color: #fff;
   font-size: 3.5rem;
@@ -3917,8 +3919,25 @@ a:hover {
 }
 
 .sponsorsec {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   height: 100%;
   padding-bottom: 3em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: 1px solid #000;
   background-color: #053a2b;
   font-family: 'Cindie2 g', sans-serif;
@@ -4409,6 +4428,20 @@ a:hover {
 
 .text-span-5 {
   text-transform: uppercase;
+}
+
+.orangeregisterbutton-copy {
+  width: 278px;
+  margin-top: 1em;
+  padding-top: 16px;
+  padding-bottom: 8px;
+  border-radius: 125px;
+  background-color: #fe774b;
+  font-family: 'Cindie2 r', sans-serif;
+  color: #053a2b;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
 }
 
 @media screen and (max-width: 991px) {
@@ -15068,7 +15101,23 @@ a:hover {
   }
 
   .sponsorsecmobile {
-    display: block;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .mentorheadingdesk {
