@@ -15686,6 +15686,17 @@ a:hover {
   grid-row-end: span 1;
 }
 
+#w-node-e1d0451a-0e23-c2d3-c304-7c1e48d74b15-b934be2e {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
 @font-face {
   font-family: 'Cindie2 g';
   src: url('../fonts/Cindie2-G.otf') format('opentype');
